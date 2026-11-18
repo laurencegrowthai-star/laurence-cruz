@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laurence Cruz | About Me</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #0284c7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 680px;
+      width: 100%;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 16px;
+    }
+    h1 { font-size: 2rem; margin-bottom: 6px; }
+    .tagline { color: var(--accent); font-weight: 500; margin-bottom: 14px; }
+    .bio { color: var(--muted); font-size: 1rem; max-width: 540px; margin: 0 auto; }
+    .section {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    .section h2 {
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .badge {
+      background: rgba(56, 189, 248, 0.12);
+      color: var(--accent);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    .links {
+      display: grid;
+      gap: 12px;
+    }
+    .link-btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      padding: 14px;
+      border-radius: 8px;
+      font-weight: 600;
+      border: 1px solid rgba(255,255,255,0.08);
+      transition: all 0.2s ease;
+    }
+    .link-btn:hover {
+      background: var(--accent);
+      color: #0f172a;
+      border-color: var(--accent);
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">LC</div>
+      <h1>Laurence Cruz</h1>
+      <p class="tagline">IT Support • Virtual Assistant • Web & SEO Optimization</p>
+      <p class="bio">
+        Hi, I'm Laurence. I help businesses streamline operations, manage digital infrastructure, optimize websites for search, and execute reliable technical workflows.
+      </p>
+    </header>
+
+    <div class="section">
+      <h2>What I Do</h2>
+      <div class="skills">
+        <span class="badge">IT Administration & Support</span>
+        <span class="badge">Virtual Assistance</span>
+        <span class="badge">SEO & GEO Website Optimization</span>
+        <span class="badge">B2B Email Marketing</span>
+        <span class="badge">Workflow Automation</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Connect With Me</h2>
+      <div class="links">
+        <a class="link-btn" href="https://www.upwork.com/" target="_blank" rel="noopener">Hire Me on Upwork</a>
+        <a class="link-btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn Profile</a>
+        <a class="link-btn" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a class="link-btn" href="mailto:your.email@example.com">Send an Email</a>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 Laurence Cruz. Hosted free on Render.
+    </footer>
+  </div>
+</body>
+</html>

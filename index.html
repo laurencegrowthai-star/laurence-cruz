@@ -32,16 +32,11 @@
       margin-bottom: 36px;
     }
     .avatar {
-      width: 96px;
-      height: 96px;
+      width: 110px;
+      height: 110px;
       border-radius: 50%;
-      background: linear-gradient(135deg, #38bdf8, #818cf8);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2rem;
-      font-weight: 700;
-      color: #0f172a;
+      object-fit: cover;
+      border: 3px solid var(--accent);
       margin-bottom: 16px;
     }
     h1 { font-size: 2rem; margin-bottom: 6px; }
@@ -106,7 +101,7 @@
 <body>
   <div class="container">
     <header>
-      <div class="avatar">LC</div>
+      <img src="dp.jpg" alt="Laurence Cruz" class="avatar" />
       <h1>Laurence Cruz</h1>
       <p class="tagline">IT Support • Virtual Assistant • Web & SEO Optimization</p>
       <p class="bio">
@@ -136,7 +131,7 @@
     </div>
 
     <footer>
-      © 2026 Laurence Cruz. Hosted free on Render.
+      © 2026 Laurence Cruz. Hosted on Render.
     </footer>
   </div>
 </body>
